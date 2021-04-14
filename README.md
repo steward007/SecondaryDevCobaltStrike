@@ -3,6 +3,7 @@
 ## 关于二次开发后的CobaltStrike</br>
 默认的CobaltStrike内存在多处流量特征,在马儿与服务端建立连接时进行流量交互.此间存在多处可疑特征已被各大杀软记录在册</br>
 如:卡巴斯基,诺顿,迈克菲等，但国内杀软并无此功能.</br>
+所以在客户端进行免杀的同时服务端在流量交互方面也需要特征去除,才产生了二次开发后CobaltStrike.</br>
 此次二开为CobaltStrike4.1版本.</br>
 ## 效果截图
 ### 迈克菲截图
@@ -11,7 +12,6 @@
 ![8a32ef6c396fbe6625d42adb308836c](https://user-images.githubusercontent.com/52184829/114645743-9a5ebb00-9d0c-11eb-89ab-74e156407970.png)
 ### 诺顿截图
 ![c727fa6431e47dd716811da9d2597d7](https://user-images.githubusercontent.com/52184829/114645755-9f236f00-9d0c-11eb-8bba-262f6394f15f.png)
-所以在客户端进行免杀的同时服务端在流量交互方面也需要特征去除,才产生了二次开发后CobaltStrike.</br>
 ## 注:所有的CobaltStrike上线未被查杀都基于客户端的马儿未被AV静态查杀的前提下,达到了动态免杀.
 ## 使用方法
 ### 1.将cobaltstrike.jar文件替换服务端的原有jar
